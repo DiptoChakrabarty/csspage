@@ -55,7 +55,23 @@ forcsspages
   	
 
 
-
+CSSS PART
+.pop{
+	padding-top:260px;
+	font-size:2em;
+	color:white;
+}
+body {
+    background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467);
+    background-size: cover;
+    background-position: center; 
+}
+h1{
+	font-size:3em ;
+}
+.tinker{
+	font-size:0.5em;
+}
 
 
 
