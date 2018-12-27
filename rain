@@ -43,3 +43,113 @@
 
 </body>
 </html>
+
+
+
+
+CSSS part
+body{
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	
+}
+section{
+	width:100%;
+	height:100%;
+	background:radial-gradient(#333, #000);
+}
+img{
+	height:110px;
+	width:110px;
+	
+}
+.set{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+.set div{
+	position:absolute;
+	display:block;
+}
+.set div:nth-child(1){
+	left:5%;
+	animation: animate 15s linear infinite;
+	animation-delay: -2s;
+}
+.set div:nth-child(2){
+	left:50%;
+		animation: animate 20s linear infinite;
+		animation-delay: -7s;
+}
+.set div:nth-child(3){
+	left:70%;
+		animation: animate 30s linear infinite;
+		animation-delay: -5s;
+}
+.set div:nth-child(4){
+	left:85%;
+		animation: animate 15s linear infinite;
+		
+}
+.set div:nth-child(5){
+	left:40%;
+		animation: animate 25s linear infinite;
+		animation-delay: -3s;
+}
+.set div:nth-child(6){
+	left:60%;
+		animation: animate 35s linear infinite;
+		animation-delay: -1s;
+}
+.set div:nth-child(7){
+	left:15%;
+		animation: animate 20s linear infinite;
+		
+}
+.set div:nth-child(8){
+	left:25%;
+		animation: animate 15s linear infinite;
+		animation-delay: -6s;
+}
+@keyframes animate {
+	0%{
+		top:-10%;
+		transform:translateX(20px)rotate(45deg);
+	}
+	10%
+	{
+		opacity:1;
+	}
+	20%
+	{
+		transform:translateX(-30px)rotate(15deg);
+	}
+	40%
+	{
+		transform:translateX(30px)rotate(45deg);
+	}
+	60%
+	{
+		transform:translateX(-30px)rotate(90deg);
+	}
+	80%
+	{
+		transform:translateX(-30px)rotate(135deg);
+	}
+	100%{
+		top:110%;
+	}
+
+}
+.set2{
+	transform:scale(2)rotateY(120deg);
+	filter:blur(1px);
+}
+.set3{
+	transform:scale(1.5)rotateX(180deg);
+	filter:blur(0px);
+}
