@@ -1,5 +1,7 @@
 # CssPages
 
+Just a fun side project started looking for more amazing content
+
 - This is a repository which contains some css animations learnt from various sources online.
 
 - Each folder contains the animations present
