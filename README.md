@@ -1,4 +1,6 @@
-# CssPages
+# CssPages :grinning:
+
+Just a fun side project started looking for more amazing content :smiley: 
 
 
 
@@ -14,15 +16,12 @@
 
 ## Contribution Guidelines 
 
-When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+When contributing to this repository, please first discuss the change or what you are about to add via issue, email, or any other method with the owners of this repository before making a change.
 
-## Pull Request Process
-
-- Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters
-- Please provide relevant steps to use your codebase adding few extra lines of comments or commands to run would be helpful for others to follow along .
+All contributions are appreciated and accepted .
 
 
-## Contribution Practices
+## Contribution Practices 
 
 - Please be respectful of others , do not indulge in unacceptable behaviour
 - If you report a bug please provide steps to reproduce the bug.
