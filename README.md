@@ -1,6 +1,6 @@
 # CssPages
 
-- This is a repository which contains some css animations learnt from various sources 
+- This is a repository which contains some css animations learnt from various sources online.
 
 - Each folder contains the animations present
 
@@ -16,7 +16,6 @@ When contributing to this repository, please first discuss the change you wish t
 
 ## Pull Request Process
 
-- Ensure any install or build dependencies are removed before the end of the layer when doing a build.
 - Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters
 - Please provide relevant steps to use your codebase adding few extra lines of comments or commands to run would be helpful for others to follow along .
 
