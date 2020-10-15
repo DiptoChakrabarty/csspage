@@ -1,0 +1,49 @@
+header{
+    width:100%;
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow:hidden;
+}
+
+.intro-content {
+    width:46%;
+    margin-top:180px;
+    
+
+}
+
+ .intro-text{
+    width:80%;
+    margin:auto;
+    opacity: 0;
+    transform:translateY(20px);
+    transition: 3s all ease-in-out;
+
+}
+
+.intro-appear {
+    opacity:1;
+    transform: translateY(0px);
+    
+}
+
+
+
+.intro-img img{
+    width:50%;
+    right:40px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top:-250px;
+
+}
+
+.intro-title h2{
+    text-align: center;
+    margin-top:90px;
+    margin-bottom:80px;
+}
