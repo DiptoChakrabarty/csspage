@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:sans-serif;
+    overflow:hidden;
+}
+
+.page1,
+.page2,.page3 {
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    width:100%;
+    flex-direction: column;
+    position:absolute;
+}
+
+a{
+    color:white;
+    text-decoration:none;
+    margin-top:50px;
+    border:1px solid white;
+    padding:10px 30px;
+}
+.page1{
+    background-color:rgb(129,69,146);
+}
+.page2 {
+    background-color:rgb(73,60,149);
+}
+.page3 {
+    background-color:rgb(206, 36, 64);
+}
+
+.color-change {
+    color:red;
+}
+
+.slide-in {
+    animation:slide-in 0.5s ease forwards;
+}
+
+@keyframes slide-in{
+
+    from{
+        transform: translateX(100%);
+        visibility: visible;
+    }
+    to{
+        translate:translateX(0%)
+    }
+}
